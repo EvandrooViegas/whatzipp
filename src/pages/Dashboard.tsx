@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { HiArrowNarrowLeft, HiArrowNarrowRight } from 'react-icons/hi'
 import { RoomType } from '../../interfaceTypes'
 import BlankChat from '../components/BlankChat'
-import Chat from '../components/Chat'
+
 import Room from '../components/Room'
 import Sidebar from '../components/Sidebar'
 import { useSelectedRoomContext } from '../context/SelectedRoomContext'
