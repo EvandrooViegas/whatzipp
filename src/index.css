@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    background-color: red;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: red;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: red;
+}
+
+body::-webkit-scrollbar-corner {
+    background-color: red;
+}
+
+body::-webkit-scrollbar-track-piece {
+    background-color: red;
+}
+
+body::-webkit-scrollbar-button {
+    background-color: red;
+}
+
+#friendModal {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+#notificationModal {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+#notificationInnerModal {
+    margin: 90px;
+}
+
+#friendInnerModal {
+    margin: 90px;
+}
